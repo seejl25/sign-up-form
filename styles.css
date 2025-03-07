@@ -5,15 +5,14 @@
 
 body {
     display: flex;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 .background-image img {
-    min-height: 100vh;
+    height: 100vh;
     width: 30vw;
-    /* position: absolute; */
+    object-fit: cover;
 }
 
 .logo-image {
@@ -32,11 +31,10 @@ body {
 .background p {
     position: absolute;
     bottom: 0%;
-
     color: white;
 }
 
-p a {
+.background a {
     color: white;
 }
 
