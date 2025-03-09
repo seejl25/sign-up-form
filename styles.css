@@ -57,9 +57,9 @@ body {
     width: 40vw;
 }
 
-form {
+.form-container {
     background-color: white;
-    padding-left: 5rem;
+    padding: 1rem 5rem;
     margin-bottom: 1.5rem;
     box-shadow: 0 5px 2px 1px rgb(0, 0, 0, 0.3);
 }
@@ -84,7 +84,7 @@ form {
     border: 1px solid #E5E7EB;
 }
 
-[type*="password"] {
+[type*="password"]:invalid {
     border: none;
     outline: 2px solid red;
 }
@@ -111,4 +111,12 @@ p {
 
 p a {
     color: #596D48;
+}
+
+.extra-info {
+    font-size: 14px;
+}
+
+.extra-info span {
+    font-weight: bold;
 }
